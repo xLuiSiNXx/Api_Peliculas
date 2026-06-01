@@ -1,7 +1,7 @@
 import express from 'express';
 import jwt from 'jsonwebtoken';
 import sequelize from './database.js';
-import Pelicula from './models/Pelicula.js';
+import Pelicula from './models/pelicula.js';
 import SECRET_KEY, { verificarToken } from './middlewares/authMiddleware.js';
 
 const app = express();
